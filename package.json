@@ -1,5 +1,5 @@
 {
-  "name": "SnackVerse | Where every bite tells a story",
+  "name": "snackverse",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -8,16 +8,19 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "framer-motion": "^10.12.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.17.0",
-    "framer-motion": "^10.12.5"
+    "react-router-dom": "^6.17.0"
   },
   "devDependencies": {
-    "vite": "^5.1.0",
-    "@vitejs/plugin-react": "^4.0.0",
-    "tailwindcss": "^3.4.14",
+    "@vitejs/plugin-react": "^4.7.0",
+    "autoprefixer": "^10.4.14",
     "postcss": "^8.4.24",
-    "autoprefixer": "^10.4.14"
+    "tailwindcss": "^3.4.14",
+    "vite": "^5.4.21"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }
